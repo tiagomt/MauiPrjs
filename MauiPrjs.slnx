@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DemoPage/DemoPage.csproj">
+    <Deploy />
+  </Project>
+</Solution>
