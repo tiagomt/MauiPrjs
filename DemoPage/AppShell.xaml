@@ -8,13 +8,29 @@
 
     <!-- ***Definição da página principal é feita em "ContentTemplate"-->
     <!--Definindo a cor da barra de navegação (Shell) (BackgroundColor)-->
-    <ShellContent
+    <!--Definindo a cor do texto da barra de navegação (Shell) (TitleColor)-->
+    <!--Definindo a cor do botao de retornar da barra de navegação (Shell) (TitleColor)-->
+    <!--<ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage"
-        Shell.ForegroundColor="White"
+        Shell.ForegroundColor="Aqua" 
         Shell.TitleColor="White"
         Shell.BackgroundColor="Chocolate"
-        />
+        />-->
+
+    <!--Descomentar texto abaixo para testes flyout page-->
+    <FlyoutItem Title="My App">
+        <ShellContent ContentTemplate="{DataTemplate local:FlyoutPageDemoFlyout}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Detail">
+        <ShellContent ContentTemplate="{DataTemplate local:FlyoutPageDemoDetail}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Teste">
+        <ShellContent ContentTemplate="{DataTemplate local:FlyoutTeste}" />
+    </FlyoutItem>
+
 
 </Shell>
