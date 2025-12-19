@@ -10,14 +10,14 @@
     <!--Definindo a cor da barra de navegação (Shell) (BackgroundColor)-->
     <!--Definindo a cor do texto da barra de navegação (Shell) (TitleColor)-->
     <!--Definindo a cor do botao de retornar da barra de navegação (Shell) (TitleColor)-->
-    <ShellContent
+    <!--<ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage"
         Shell.ForegroundColor="Aqua" 
         Shell.TitleColor="White"
         Shell.BackgroundColor="Chocolate"
-        />
+        />-->
 
     <!--Descomentar texto abaixo para testes flyout page-->
     <!--<FlyoutItem Title="My App">
@@ -32,5 +32,24 @@
         <ShellContent ContentTemplate="{DataTemplate local:FlyoutTeste}" />
     </FlyoutItem>-->
 
+
+
+    <!--Abordagem com TabBar-->
+    <!--<TabBar>
+
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+                Shell.ForegroundColor="Aqua" 
+                Shell.TitleColor="White"
+                Shell.BackgroundColor="Chocolate"
+                />
+            <ShellContent
+                Title="Content Page Demo"
+                ContentTemplate="{DataTemplate local:ContentPageDemo}"
+                Route="ContentPageDemo"
+                />
+    </TabBar>-->
 
 </Shell>
