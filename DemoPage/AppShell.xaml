@@ -35,7 +35,7 @@
 
 
     <!--Abordagem com TabBar-->
-    <!--<TabBar>
+    <TabBar>
 
             <ShellContent
                 Title="Home"
@@ -50,6 +50,6 @@
                 ContentTemplate="{DataTemplate local:ContentPageDemo}"
                 Route="ContentPageDemo"
                 />
-    </TabBar>-->
+    </TabBar>
 
 </Shell>

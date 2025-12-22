@@ -2,4 +2,7 @@
   <Project Path="DemoPage/DemoPage.csproj">
     <Deploy />
   </Project>
+  <Project Path="StackLayoutDemo/StackLayoutDemo.csproj" Id="ae7bdd5c-e3f5-4a46-96ff-910e21e32e1f">
+    <Deploy />
+  </Project>
 </Solution>
