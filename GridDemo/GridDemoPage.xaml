@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridDemo.GridDemoPage"
+             Title="GridDemoPage">
+
+
+    <!--Grid por padrão cria uma linha e uma coluna, por isso caso haja mais de 1 item, um sobrescreverá o outro-->
+    <Grid>
+
+        
+        <!--Definindo duas linhas-->
+        <!--Height - Define a altura da linha. Auto: Apenas espaço necessário. * representa 1x o tamanho total. Se for 2* será 2x e assim por diante-->
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*">
+            </RowDefinition>
+            
+            <RowDefinition />
+
+        </Grid.RowDefinitions>
+
+        <!--Definindo duas colunas-->
+        <!--Width - Define a largura da coluna. Auto: Apenas espaço necessário. * representa 1x o tamanho total. Se for 2* será 2x e assim por diante-->
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+
+        <!--Grid.Row indica a linha que será posicionado(indice 0 é o primeiro)-->
+        <!--Grid.Column indica a coluna que será posicionado(indice 0 é o primeiro)-->
+        <!--Grid.ColumnSpan indica quantas colunas ele irá expandir-->
+        <Button Text="Click me!"></Button>
+        <Button Text=".NET MAUI" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"></Button>
+
+
+    </Grid>
+
+</ContentPage>
