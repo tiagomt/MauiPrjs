@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AbsoluteLayoutDemo/AbsoluteLayoutDemo.csproj" Id="e0f6df9a-cc4f-4fc7-991d-f06487dcc8d0" />
   <Project Path="DemoPage/DemoPage.csproj">
     <Deploy />
   </Project>
