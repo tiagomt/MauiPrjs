@@ -1,7 +1,12 @@
 <Solution>
-  <Project Path="AbsoluteLayoutDemo/AbsoluteLayoutDemo.csproj" Id="e0f6df9a-cc4f-4fc7-991d-f06487dcc8d0" />
+  <Project Path="AbsoluteLayoutDemo/AbsoluteLayoutDemo.csproj" Id="e0f6df9a-cc4f-4fc7-991d-f06487dcc8d0">
+    <Deploy Solution="Debug|*" />
+  </Project>
   <Project Path="DemoPage/DemoPage.csproj">
     <Deploy />
+  </Project>
+  <Project Path="FlexLayoutDemo/FlexLayoutDemo.csproj" Id="781fee69-5182-4d38-bfe0-9b072c3cd856">
+    <Deploy Solution="Debug|*" />
   </Project>
   <Project Path="GridDemo/GridDemo.csproj" Id="851eea18-76bb-4675-9184-2f560bbc1654">
     <Deploy Solution="Debug|*" />
