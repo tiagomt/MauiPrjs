@@ -2,6 +2,7 @@
   <Project Path="AbsoluteLayoutDemo/AbsoluteLayoutDemo.csproj" Id="e0f6df9a-cc4f-4fc7-991d-f06487dcc8d0">
     <Deploy Solution="Debug|*" />
   </Project>
+  <Project Path="ControlsDemo/ControlsDemo.csproj" Id="de789b5a-7491-41e0-b4a5-8c3a933d6624" />
   <Project Path="DemoPage/DemoPage.csproj">
     <Deploy />
   </Project>
